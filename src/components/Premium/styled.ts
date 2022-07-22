@@ -40,4 +40,5 @@ export const Buttons = styled.div`
         border-radius: 40%;
         font-weight: bold;
     }
+
 `
