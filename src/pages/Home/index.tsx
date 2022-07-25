@@ -1,13 +1,20 @@
-import NavBar from "../../components/NavBar";
-import Premium from "../../components/Premium";
-import WhyPremium from "../../components/WhyPremium";
+import NavBar from "../../components/Spotify/NavBar";
+import Premium from "../../components/Spotify/Premium";
+import WhyPremium from "../../components/Spotify/WhyPremium";
+import NavBarYoutube from "../../components/YoutubeMusic/Navbar";
+import { Home, Spotify,YoutubeMusic } from "./styled";
 
 export default function() {
     return (
-        <>
-            <NavBar/>
-            <Premium/>
-            <WhyPremium/>
-        </>
+        <Home>
+            <Spotify>
+                <NavBar/>
+                <Premium/>
+                <WhyPremium/>
+            </Spotify>
+            <YoutubeMusic>
+                <NavBarYoutube/>
+            </YoutubeMusic>
+        </Home>
     )
 }

@@ -1,4 +1,4 @@
-import  SpotifyLogo  from "../../assets/Spotify_logo.svg";
+import  SpotifyLogo  from "../../../assets/Spotify_logo.svg";
 import { Grid,Svg,GridMenu,GridMenuUser } from "./Styled"
 
 export default function NavBar() {
